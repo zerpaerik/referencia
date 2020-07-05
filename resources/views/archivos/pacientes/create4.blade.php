@@ -48,9 +48,9 @@
 							<input type="text" class="form-control" name="direccion" placeholder="Dirección" data-toggle="tooltip" data-placement="bottom" title="Dirección" onkeyup="mayus(this);">
 						</div>	
 						
-						<label class="col-sm-1 control-label">Referencia</label>
+						<label class="col-sm-1 control-label">Correo</label>
 						<div class="col-sm-3">
-							<input type="text" class="form-control" name="Referencia" placeholder="Referencia" data-toggle="tooltip" data-placement="bottom" title="Referencia" onkeyup="mayus(this);">
+							<input type="text" class="form-control" name="Referencia" placeholder="Correo" data-toggle="tooltip" data-placement="bottom" title="Referencia" onkeyup="mayus(this);">
 						</div>
 
 						<label class="col-sm-1 control-label">Provincia</label>
