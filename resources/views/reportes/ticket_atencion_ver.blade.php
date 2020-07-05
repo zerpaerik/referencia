@@ -70,11 +70,14 @@ margin-top: -20px;
 	</div>
 
  <div class="" style="font-size: 40px; text-align: center;margin-bottom:-60px;margin-top: 2px;">
-		<p><strong>SYSMEDIC PERU- {{Session::get('sedeName')}}</strong></p>
-		<p><strong>RUC: 20601183961</strong></p>
+		
 		@if(Session::get('sedeName') == 'INDEPENDENCIA')
+        <p><strong>MADRE TERESA- SAN JUAN DE LURIGANCHO</strong></p>
+		<p><strong>RUC: 20600971116</strong></p>
 		<p><strong>Teléfono: 940314839</strong></p>
 		@else
+        <p><strong>SEDE LOS OLIVOS</strong></p>
+        <p><strong>RUC: 20600971116</strong></p>
 		<p><strong>Teléfono: 940314839</strong></p>
 		@endif
 	    <p><strong>TICKET:{{ $ticket->id}}</strong></p>
