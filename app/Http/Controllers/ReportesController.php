@@ -201,6 +201,8 @@ class ReportesController extends Controller
                 ->join('servicios as e','e.id','a.id_servicio')
                 ->where('a.id','=', $id)
                 ->first();
+                    
+                  
 				
 			 
 
@@ -238,7 +240,8 @@ class ReportesController extends Controller
 	 public function ticket_ver($id) 
     {
         $ticket =ReportesController::verTicket($id);
-        $view = \View::make('reportes.ticket_atencion_ver')->with('ticket', $ticket);
+         $edad = Carbon::parse($ticket->fechanac)->age;
+        $view = \View::make('reportes.ticket_atencion_ver')->with('ticket', $ticket, 'edad' , $edad);
         $pdf = \App::make('dompdf.wrapper');
         //$pdf->setPaper('A5', 'landscape');
 		//$pdf->setPaper(array(0,0,600.00,360.00));
