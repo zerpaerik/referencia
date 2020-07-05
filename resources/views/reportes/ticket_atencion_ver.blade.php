@@ -88,7 +88,6 @@ margin-top: -20px;
 	</div>
 
 
-
 	<div class="" style="font-size: 40px; text-align: left;margin-bottom:-40px;">
 		<p><strong>PACIENTE:{{ $ticket->nombres}},{{ $ticket->apellidos}} {{ $ticket->dni}} {{ $ticket->telefono}}</strong></p>
 	</div>
@@ -102,17 +101,7 @@ margin-top: -20px;
 		<p><strong>ORIGEN:{{ $ticket->nompac}},{{ $ticket->apepac}}</strong></p>
 	</div>
 
-	<div class="" style="font-size: 40px; text-align: left;margin-bottom:-40px;">
-		<p><strong>MONTO: {{ $ticket->monto}}</strong></p>
-	</div>
-
-	<div class="" style="font-size: 40px; text-align: left;margin-bottom:-40px;">
-		<p><strong>PAGADO:{{ $ticket->abono}}</strong></p>
-	</div>
-
-	<div class="" style="font-size: 40px; text-align: left;">
-		<p><strong>RESTA: {{ $ticket->pendiente}}</strong></p>
-	</div>
+	
 
 	<br><br><br><br><br><br><br><br>
 	<center><p style="font-size: 60px;">COMUNICADO</p></center>
