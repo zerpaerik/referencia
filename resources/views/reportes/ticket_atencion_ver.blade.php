@@ -95,6 +95,10 @@ margin-top: -20px;
 		<p><strong>DNI:{{ $ticket->dni}}</strong></p>
 	</div>
     
+    <div class="" style="font-size: 40px; text-align: left;margin-bottom:-40px;">
+		<p><strong>EDAD:{{ $edad}}</strong></p>
+	</div>
+    
      <div class="" style="font-size: 40px; text-align: left;margin-bottom:-40px;">
 		<p><strong>DIRECCIÓN:{{ $ticket->direccion}}</strong></p>
 	</div>
