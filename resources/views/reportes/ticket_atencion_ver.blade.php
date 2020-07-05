@@ -88,7 +88,7 @@ margin-top: -20px;
 	</div>
     
     <div class="" style="font-size: 40px; text-align: left;margin-bottom:-40px;">
-		<p><strong>PACIENTE:{{ $ticket->nombres}},{{ $ticket->apellidos}}  {{ $ticket->telefono}}</strong></p>
+		<p><strong>PACIENTE:{{ $ticket->nombres}},{{ $ticket->apellidos}}</strong></p>
 	</div>
     
     <div class="" style="font-size: 40px; text-align: left;margin-bottom:-40px;">
