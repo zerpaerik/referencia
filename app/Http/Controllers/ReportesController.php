@@ -241,7 +241,7 @@ class ReportesController extends Controller
     {
         $ticket =ReportesController::verTicket($id);
          $edad = Carbon::parse($ticket->fechanac)->age;
-        $view = \View::make('reportes.ticket_atencion_ver')->with('ticket', $ticket, 'edad' , $edad);
+        $view = \View::make('reportes.ticket_atencion_ver')->compact('ticket','edad');
         $pdf = \App::make('dompdf.wrapper');
         //$pdf->setPaper('A5', 'landscape');
 		//$pdf->setPaper(array(0,0,600.00,360.00));
