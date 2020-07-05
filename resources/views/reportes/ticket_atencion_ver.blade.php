@@ -86,20 +86,26 @@ margin-top: -20px;
     <div class="" style="font-size: 40px; text-align: left;margin-bottom:-40px;">
 		<p><strong>FECHA:{{ date('d/m/Y', strtotime($ticket->created_at)) }}</strong></p>
 	</div>
-
-
-	<div class="" style="font-size: 40px; text-align: left;margin-bottom:-40px;">
-		<p><strong>PACIENTE:{{ $ticket->nombres}},{{ $ticket->apellidos}} {{ $ticket->dni}} {{ $ticket->telefono}}</strong></p>
+    
+    <div class="" style="font-size: 40px; text-align: left;margin-bottom:-40px;">
+		<p><strong>PACIENTE:{{ $ticket->nombres}},{{ $ticket->apellidos}}  {{ $ticket->telefono}}</strong></p>
+	</div>
+    
+    <div class="" style="font-size: 40px; text-align: left;margin-bottom:-40px;">
+		<p><strong>DNI:{{ $ticket->dni}}</strong></p>
+	</div>
+    
+    <div class="" style="font-size: 40px; text-align: left;margin-bottom:-40px;">
+		<p><strong>TELEFONO:{{ $ticket->telefono}}</strong></p>
 	</div>
 
+    
 	<div class="" style="font-size: 40px; text-align: left;margin-bottom:-40px;">
 		<p><strong>DETALLE:{{ $ticket->detalle}}
 		</strong></p>
 	</div>
 
-	<div class="" style="font-size: 40px; text-align: left;margin-bottom:-40px;">
-		<p><strong>ORIGEN:{{ $ticket->nompac}},{{ $ticket->apepac}}</strong></p>
-	</div>
+	
 
 	
 
