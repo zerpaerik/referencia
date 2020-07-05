@@ -95,26 +95,20 @@ margin-top: -20px;
 		<p><strong>DNI:{{ $ticket->dni}}</strong></p>
 	</div>
     
+     <div class="" style="font-size: 40px; text-align: left;margin-bottom:-40px;">
+		<p><strong>DIRECCIÓN:{{ $ticket->direccion}}</strong></p>
+	</div>
+    
     <div class="" style="font-size: 40px; text-align: left;margin-bottom:-40px;">
 		<p><strong>TELEFONO:{{ $ticket->telefono}}</strong></p>
 	</div>
 
-    
-	<div class="" style="font-size: 40px; text-align: left;margin-bottom:-40px;">
-		<p><strong>DETALLE:{{ $ticket->detalle}}
-		</strong></p>
-	</div>
+  
 
+	
 	
 
 	
-
-	<br><br><br><br><br><br><br><br>
-	<center><p style="font-size: 60px;">COMUNICADO</p></center>
-	<p style="text-align: justify;font-size: 30px;">Estimado cliente se informa, que todo estudio que quede pendiente de su realizaciòn <strong>tiene un plazo no mayor a 30 dias,</strong>contando desde la fecha de su cancelaciòn, <strong>pasado este tiempo quedarà como anulado dicho estudio</strong>. Asi mismo las <strong>consultas de reevaluaciòn tienen un plazo de 15 dias,</strong> pasado este tiempo el paciente deberà cancelar por su consulta.</p>
-
-	
-
 	
 
 
